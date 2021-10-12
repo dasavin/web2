@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>index</title>
+		<link rel="stylesheet" href="https://vk.com/doc381163744_573654337?hash=9ecbf4a5a97184de7c&dl=0b2b395bf2518ba1c6">
+	</head>
+	
+	
+	<body>
+	
+		<header>
+			<div id="logo-name">
+				<img id="logo" src="https://www.flaticon.com/premium-icon/icons/svg/3456/3456805.svg" alt="logo";><H1>HTML</H1>
+			</div>
+		</header>
+		
+		<nav><H3><a href="#adress">ссылки</a>|<a href="#table">таблица</a>|<a href="#form">форма</a></H3></nav>
+		
+		<div class="content">
+		 <ol>
+	 <li><a href="http://example.com">Абсолютная гиперссылка example.com</a></li>
+	 <li><a href="https://example.com/">Ссылка в протоколе https</a></li>
+     <li><a href="https://www.mmnt.net/db/0/0/ftp.intel.com">ссылка на файл на сервере FTP без авторизации</a></li>
+    <li><a href="ftp://user:123456@example.ru/examples/main.txt">ссылка на файл на сервере FTP с авторизацией</a></li>
+	 <li><a href="https://www.reddit.com/r/Wellthatsucks/comments/ipzp1x/when_the_tiger_shark_youre_photographing_swims/">Ссылка на фрагмент некоторого сайта</a></li>
+	 <li><a href="#Форма">Ссылка на фрагмент текущей страницы</a></li>
+	 <li><a href="https://www.kubsu.ru/ru/search/content?keys=???">Ссылка с параметром</a></li>
+	 <li> 
+	 <p>Навигация kubsu.ru</p>
+	    <ul>
+		 <li><a href="https://www.kubsu.ru/ru/university" title="Университет">Университет</a></li>
+		 <li><a href="https://www.kubsu.ru/ru/education" title="Образование">Образование</a></li>
+		 <li><a href="https://www.kubsu.ru/ru/science" title="Наука и инновации">Наука и инновации</a></li>
+		 <li><a href="https://www.kubsu.ru/ru/abiturient" title="Абитуриентам">Абитуриентам</a></li>
+		 <li><a href="https://www.kubsu.ru/ru/studlife" title="Студентам">Студентам</a></li>
+		</ul>
+	 </li>
+	 <li><a title="Здесь нет никакой ссылки">Ссылка без href</a></li>
+	 <li><a href="">Пустая ссылка href</a></li>
+	 <li><a href="http://example.com" rel="nofollow">Запрещенная для перехода поисковикам</a></li>
+	 <li><a href="http://example.com" rel="noindex">Запрещенная для индексации</a></li>
+	 <li><p style="text-align: justify;">Контекстной считается <a href="http://htmlbook.ru/html/a">ссылка</a>, размещенная в фрагменте текстового контента, в который она вписывается по смыслу</p></li>
+	 <li><a href="https://kubsu.ru"><img src="https://upload.wikimedia.org/wikipedia/ru/0/07/Kubsu_logo.gif" alt="logokubsu" width="100" height="100"></a></li>
+	 <li>
+	 <p><img src="https://upload.wikimedia.org/wikipedia/ru/0/07/Kubsu_logo.gif" width="350" height="250" usemap="#map" alt="logokubsu"></p>
+	     <p><map name="map"><area shape="circle" alt="" coords="183,120,180" href="https://kubsu.ru"></map></p><br />
+	 <p><img src="https://upload.wikimedia.org/wikipedia/ru/0/07/Kubsu_logo.gif" width="250" height="150" usemap="#map2" alt="logokubsu"></p>
+	     <p><map name="map2"><area shape="rect" alt="" coords="1,1,250,150" href="https://kubsu.ru"></map></p>
+     </li>
+	 <li><a href="hvjhbv.html">Относительная ссылка на страницу в текущем каталоге</a></li>
+     <li><a href="about/aboutpage.html">Относительная ссылка на страницу в каталоге about</a></li>
+     <li><a href="../example.html">Относительная ссылка на страницу в каталоге уровнем выше текущего</a></li>
+     <li><a href="../../enoughexample.html">Относительная ссылка на страницу в каталоге двумя уровнями вышe</a></li>
+     <li><a href="index.html">Сокращенная ссылка на главную</a></li>
+     <li><a href="demo.html">Сокращенная ссылка на внутреннюю.</a></li>
+
+	</ol>
+	<a id="Форма"></a>
+   <h2>Форма</h2>
+	<form>
+      <label>
+        ФИО:<br />
+        <input name="field-name-1"
+          value="Ваше ФИО" />
+      </label><br /><br />	  
+
+      <label>
+        Текстовое поле email:<br />
+        <input name="field-email"
+          value="example@mail.ru"
+          type="email" />
+      </label><br /><br />
+
+      <label>
+        Дата рождения:<br />
+        <input name="field-date"
+          value="2000-02-20"
+          type="date" />
+      </label><br /><br />
+	  
+	    Пол:<br/>
+		<label><input type="radio" checked="checked"
+        name="radio-group-2" value="Мужчина" />
+		Мужчина</label>
+		
+		<label><input type="radio" checked="checked"
+        name="radio-group-2" value="Женщина" />
+		Женщина</label>
+	    <br><br/>
+	  
+	    Количество конечностей :<br />
+		<label><input type="radio" checked="checked"
+        name="radio-group-1" value="1" />
+		1</label>
+		
+		<label><input type="radio" checked="checked"
+        name="radio-group-1" value="2" />
+		2</label>
+		
+		<label><input type="radio" checked="checked"
+        name="radio-group-1" value="3" />
+		3</label>
+		
+		<label><input type="radio" checked="checked"
+        name="radio-group-1" value="4" />
+		4</label>
+		
+		<label><input type="radio" checked="checked"
+        name="radio-group-1" value="10" />
+		10</label><br><br/>
+	  
+	   <label>
+        Сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Левитация</option>
+          <option value="Значение2" selected="selected">Бессметрие</option>
+		  <option value="Значение2" selected="selected">Невидимость</option>
+          <option value="Значение3" selected="selected">Прохождение сквозь стены</option>
+        </select>
+      </label><br /><br />
+      <label>
+        Биография:<br />
+        <textarea name="BIO">Я ученик КубГУ</textarea>
+      </label><br /><br />
+	  
+       С контрактом ознакомлен:<br />
+      <label><input type="checkbox" checked="checked" name="check-1" />
+         Подтверждение</label><br /><br />
+      <input type="submit" value="Отправить" />
+	  <a id="Конец"></a>
+	 </form>
+  </body>
+</html>
